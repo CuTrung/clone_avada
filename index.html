@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<title>avada &#8211; DemoWeb</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="DemoWeb &raquo; Feed" href="https://cutrung.github.io/clone_avada/feed/">
+<link rel="alternate" type="application/rss+xml" title="DemoWeb &raquo; Comments Feed" href="https://cutrung.github.io/clone_avada/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="DemoWeb &raquo; avada Comments Feed" href="https://cutrung.github.io/clone_avada/avada/feed/">
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/myproject\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="https://cutrung.github.io/clone_avada/wp-includes/css/dist/block-library/style.min.css?ver=6.0.2" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}</style>
+<link rel="stylesheet" id="onepress-fonts-css" href="https://fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C700%2C300%2C100%2C800%2C900%7COpen+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext&#038;display=swap&#038;ver=2.3.0" type="text/css" media="all">
+<link rel="stylesheet" id="onepress-animate-css" href="https://cutrung.github.io/clone_avada/wp-content/themes/onepress/assets/css/animate.min.css?ver=2.3.0" type="text/css" media="all">
+<link rel="stylesheet" id="onepress-fa-css" href="https://cutrung.github.io/clone_avada/wp-content/themes/onepress/assets/css/font-awesome.min.css?ver=4.7.0" type="text/css" media="all">
+<link rel="stylesheet" id="onepress-bootstrap-css" href="https://cutrung.github.io/clone_avada/wp-content/themes/onepress/assets/css/bootstrap.min.css?ver=2.3.0" type="text/css" media="all">
+<link rel="stylesheet" id="onepress-style-css" href="https://cutrung.github.io/clone_avada/wp-content/themes/onepress/style.css?ver=6.0.2" type="text/css" media="all">
+<style id="onepress-style-inline-css" type="text/css">#main .video-section section.hero-slideshow-wrapper{background:transparent}.hero-slideshow-wrapper:after{position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:rgba(0,0,0,0.3);display:block;content:""}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}#parallax-hero>.parallax-bg::before{background-color:rgba(0,0,0,0.3);opacity:1}.body-desktop .parallax-hero .hero-slideshow-wrapper:after{display:none!important}#footer-widgets{}.gallery-carousel .g-item{padding:0px 10px}.gallery-carousel-wrap{margin-left:-10px;margin-right:-10px}.gallery-grid .g-item,.gallery-masonry .g-item .inner{padding:10px}.gallery-grid-wrap,.gallery-masonry-wrap{margin-left:-10px;margin-right:-10px}.gallery-justified-wrap{margin-left:-20px;margin-right:-20px}</style>
+<link rel="stylesheet" id="onepress-gallery-lightgallery-css" href="https://cutrung.github.io/clone_avada/wp-content/themes/onepress/assets/css/lightgallery.css?ver=6.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.7.4" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-70-css" href="https://cutrung.github.io/clone_avada/wp-content/uploads/elementor/css/post-70.css?ver=1662813900" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="https://cutrung.github.io/clone_avada/wp-content/uploads/elementor/css/global.css?ver=1662813901" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-284-css" href="https://cutrung.github.io/clone_avada/wp-content/uploads/elementor/css/post-284.css?ver=1662995424" type="text/css" media="all">
+<link rel="stylesheet" id="eael-general-css" href="https://cutrung.github.io/clone_avada/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=5.2.4" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CQuestrial%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPT+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" type="text/css" media="all">
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://cutrung.github.io/clone_avada/wp-json/">
+<link rel="alternate" type="application/json" href="https://cutrung.github.io/clone_avada/wp-json/wp/v2/posts/284">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cutrung.github.io/clone_avada/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cutrung.github.io/clone_avada/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 6.0.2">
+<link rel="canonical" href="https://cutrung.github.io/clone_avada/avada/">
+<link rel="shortlink" href="https://cutrung.github.io/clone_avada/?p=284">
+<link rel="alternate" type="application/json+oembed" href="https://cutrung.github.io/clone_avada/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fmyproject%2Fwordpress%2Favada%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://cutrung.github.io/clone_avada/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fmyproject%2Fwordpress%2Favada%2F&#038;format=xml">
+<link rel="pingback" href="https://cutrung.github.io/clone_avada/xmlrpc.php">
+</head>
+
+<body class="post-template post-template-elementor_header_footer single single-post postid-284 single-format-standard elementor-default elementor-template-full-width elementor-kit-70 elementor-page elementor-page-284">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<div id="header-section" class="h-on-top no-transparent">		<header id="masthead" class="site-header header-contained is-sticky no-scroll no-t h-on-top" role="banner">
+			<div class="container">
+				<div class="site-branding">
+				<div class="site-brand-inner no-logo-img has-title has-desc">
+<p class="site-title"><a class="site-text-logo" href="https://cutrung.github.io/clone_avada/" rel="home">DemoWeb</a></p>
+<p class="site-description">Just another WordPress site</p>
+</div>				</div>
+				<div class="header-right-wrapper">
+					<a href="#0" id="nav-toggle">Menu<span></span></a>
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<ul class="onepress-menu">
+							<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://cutrung.github.io/clone_avada/home/">HOME</a></li>
+<li id="menu-item-271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="https://cutrung.github.io/clone_avada/accomodations/">ACCOMODATIONS</a></li>
+<li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://cutrung.github.io/clone_avada/acctivites/">ACCTIVITES</a></li>
+<li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a href="https://cutrung.github.io/clone_avada/spa/">SPA</a></li>
+<li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://cutrung.github.io/clone_avada/dining/">DINING</a></li>
+<li id="menu-item-276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-276">
+<a href="https://cutrung.github.io/clone_avada/news/">NEWS</a>
+<ul class="sub-menu">
+	<li id="menu-item-281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281"><a href="https://cutrung.github.io/clone_avada/featured-article/">FEATURED ARTICLE</a></li>
+</ul>
+</li>
+<li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://cutrung.github.io/clone_avada/contact/">CONTACT</a></li>
+						</ul>
+					</nav>
+					<!-- #site-navigation -->
+				</div>
+			</div>
+		</header><!-- #masthead -->
+		</div>		<div data-elementor-type="wp-post" data-elementor-id="284" class="elementor elementor-284">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-d08d418 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d08d418" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-52d3011" data-id="52d3011" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6dcde7d elementor-widget elementor-widget-image" data-id="6dcde7d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.4 - 31-08-2022 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img width="150" height="63" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/avada-hotel-logo.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-52526ed elementor-nav-menu__align-center elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="52526ed" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css">			<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-52526ed" class="elementor-nav-menu sm-vertical">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://cutrung.github.io/clone_avada/home/" class="elementor-item">HOME</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="https://cutrung.github.io/clone_avada/accomodations/" class="elementor-item">ACCOMODATIONS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://cutrung.github.io/clone_avada/acctivites/" class="elementor-item">ACCTIVITES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a href="https://cutrung.github.io/clone_avada/spa/" class="elementor-item">SPA</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://cutrung.github.io/clone_avada/dining/" class="elementor-item">DINING</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-276">
+<a href="https://cutrung.github.io/clone_avada/news/" class="elementor-item">NEWS</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281"><a href="https://cutrung.github.io/clone_avada/featured-article/" class="elementor-sub-item">FEATURED ARTICLE</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://cutrung.github.io/clone_avada/contact/" class="elementor-item">CONTACT</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+				<ul id="menu-2-52526ed" class="elementor-nav-menu sm-vertical">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://cutrung.github.io/clone_avada/home/" class="elementor-item" tabindex="-1">HOME</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="https://cutrung.github.io/clone_avada/accomodations/" class="elementor-item" tabindex="-1">ACCOMODATIONS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://cutrung.github.io/clone_avada/acctivites/" class="elementor-item" tabindex="-1">ACCTIVITES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a href="https://cutrung.github.io/clone_avada/spa/" class="elementor-item" tabindex="-1">SPA</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://cutrung.github.io/clone_avada/dining/" class="elementor-item" tabindex="-1">DINING</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-276">
+<a href="https://cutrung.github.io/clone_avada/news/" class="elementor-item" tabindex="-1">NEWS</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281"><a href="https://cutrung.github.io/clone_avada/featured-article/" class="elementor-sub-item" tabindex="-1">FEATURED ARTICLE</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://cutrung.github.io/clone_avada/contact/" class="elementor-item" tabindex="-1">CONTACT</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9bdc5d4 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="9bdc5d4" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fab fa-facebook-f"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d2c19c3 elementor-widget__width-initial elementor-view-default elementor-widget elementor-widget-icon" data-id="d2c19c3" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fab fa-twitter"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-8a94678 elementor-widget__width-initial elementor-view-default elementor-widget elementor-widget-icon" data-id="8a94678" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fab fa-youtube-square"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-47853c3 elementor-widget__width-initial elementor-view-default elementor-widget elementor-widget-icon" data-id="47853c3" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fab fa-instagram"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-45393b1 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="45393b1" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">BOOK NOW</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4f8c949 elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="4f8c949" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-27dddc5" data-id="27dddc5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d39cdb7 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-heading" data-id="d39cdb7" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.4 - 31-08-2022 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+<h1 class="elementor-heading-title elementor-size-default">Rest & Relaxation</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7a2af91 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="7a2af91" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.4 - 31-08-2022 */
+.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper swiper-image-stretch">
+								<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/retina_image1-1.webp" alt="retina_image1 (1)"></figure></div>
+<div class="swiper-slide"><figure class="swiper-slide-inner"><img class="swiper-slide-image" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/home_slide_2.jpg" alt="home_slide_2"></figure></div>			</div>
+												<div class="swiper-pagination"></div>
+													<div class="elementor-swiper-button elementor-swiper-button-prev">
+						<i aria-hidden="true" class="eicon-chevron-left"></i>						<span class="elementor-screen-only">Previous</span>
+					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next">
+						<i aria-hidden="true" class="eicon-chevron-right"></i>						<span class="elementor-screen-only">Next</span>
+					</div>
+									</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6963618 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-heading" data-id="6963618" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">We're Here To Help You Enjoy Your Stay</h3>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-130a832 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="130a832" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-6aadd08" data-id="6aadd08" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cfa1c56 elementor-widget elementor-widget-heading" data-id="cfa1c56" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">WELCOME TO AVADA HOTEL</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-03fe2f4 elementor-widget elementor-widget-heading" data-id="03fe2f4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Relaxing Pleasure</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e8c6484 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="e8c6484" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.4 - 31-08-2022 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#2c2c2c;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);-ms-flex-negative:0;flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0;-ms-flex-negative:100;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0;-ms-flex-negative:100;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-container>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow,0)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bb11f4 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="4bb11f4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.7.4 - 31-08-2022 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Pellentesque nulla magna, accumsan sed ante quis, gravida feugiat turpis. Vivamus et fringilla ligula. Etiam sapien tellus, imperdiet eget posuere nec, cursus vel arcu. Ut molestie at posuere ante, at volutpat tellus egestas. Sed ut nunc egestas, porta tortor a, tempor sem.</p>
+<div class="ddict_btn" style="top: 25px; left: 204.5px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-fc1ec4b elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="fc1ec4b" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">EXPLORE MORE</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e93552b elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="e93552b" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-beb94d5 elementor-widget elementor-widget-image" data-id="beb94d5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="768" height="338" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/girl_pool.webp" class="attachment-medium_large size-medium_large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-5f1f5e1" data-id="5f1f5e1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6b83931 elementor-widget elementor-widget-image" data-id="6b83931" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="900" height="850" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/happy-couple.jpg" class="attachment-1536x1536 size-1536x1536" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-d3fa6bc elementor-widget elementor-widget-image" data-id="d3fa6bc" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="400" height="250" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/membership-400x250-1.webp" class="elementor-animation-grow attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-3c47d10 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-button" data-id="3c47d10" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">BUY AVADA NOW</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3eba3ba elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-button" data-id="3eba3ba" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-30f5b51 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="30f5b51" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8af7927" data-id="8af7927" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-eaf9845 elementor-widget elementor-widget-image" data-id="eaf9845" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="370" height="82" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/flowers_top.webp" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-d5a299e elementor-widget elementor-widget-heading" data-id="d5a299e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">AVAILABLE APARTMENTS</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-24b4323 elementor-widget elementor-widget-heading" data-id="24b4323" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Accommodations</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e04e0e2 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="e04e0e2" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4e39b83 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e39b83" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-06e579f" data-id="06e579f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3e44c2e elementor-widget elementor-widget-image" data-id="3e44c2e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1000" height="1000" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/room13.webp" class="attachment-2048x2048 size-2048x2048" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-7cd2508 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-heading" data-id="7cd2508" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Residential</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a71f65c elementor-widget__width-initial elementor-absolute elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="a71f65c" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cac5362 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-text-editor" data-id="cac5362" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center; height: 200px;"> Aliquam vulputate ligula ets nisl dapibus ultrices sed dolores ipsums.</p>
+<div class="ddict_btn" style="top: 21px; left: 204.75px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6ebcf60 elementor-widget__width-initial elementor-align-center elementor-absolute elementor-widget elementor-widget-button" data-id="6ebcf60" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">VIEW DETAILS</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7dd131b elementor-align-justify elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-button" data-id="7dd131b" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c7e89fa" data-id="c7e89fa" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-32f9df1 elementor-widget elementor-widget-image" data-id="32f9df1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1000" height="1000" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/room23.webp" class="attachment-2048x2048 size-2048x2048" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-4681736 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-heading" data-id="4681736" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Premium</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b8708b9 elementor-widget__width-initial elementor-absolute elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b8708b9" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e205a83 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-text-editor" data-id="e205a83" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center; height: 200px;"> Aliquam vulputate ligula ets nisl dapibus ultrices sed dolores ipsums.</p>
+<div class="ddict_btn" style="top: 21px; left: 204.75px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-de71210 elementor-widget__width-initial elementor-align-center elementor-absolute elementor-widget elementor-widget-button" data-id="de71210" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">VIEW DETAILS</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-29edbc2 elementor-align-justify elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-button" data-id="29edbc2" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-fe8dac1" data-id="fe8dac1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-edc1827 elementor-widget elementor-widget-image" data-id="edc1827" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1000" height="1000" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/room33.webp" class="attachment-2048x2048 size-2048x2048" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-12289a0 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-heading" data-id="12289a0" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Excutive</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-77f2d11 elementor-widget__width-initial elementor-absolute elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="77f2d11" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-75ab902 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-text-editor" data-id="75ab902" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center; height: 200px;"> Aliquam vulputate ligula ets nisl dapibus ultrices sed dolores ipsums.</p>
+<div class="ddict_btn" style="top: 21px; left: 204.75px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-89bfed1 elementor-widget__width-initial elementor-align-center elementor-absolute elementor-widget elementor-widget-button" data-id="89bfed1" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">VIEW DETAILS</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-20d07db elementor-align-justify elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-button" data-id="20d07db" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6d8415b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6d8415b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-74410d1" data-id="74410d1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2b5e766 elementor-widget elementor-widget-heading" data-id="2b5e766" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Wellness & Spa</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2002bef elementor-widget elementor-widget-heading" data-id="2002bef" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Spa Center</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c811dd8 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c811dd8" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-af69468 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="af69468" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: left;">Pellentesque nulla magna, accumsan sed ante quis, gravida feugiat turpis. Vivamus et fringilla ligula. Etiam sapien tellus, imperdiet eget posuere nec, cursus vel arcu.</p>
+<div class="ddict_btn" style="top: 21px; left: 204.5px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-0761e6c elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="0761e6c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">DISCOVER MORE</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4431c5d elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="4431c5d" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-81a82d8" data-id="81a82d8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3b283df elementor-widget elementor-widget-image" data-id="3b283df" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="300" height="158" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/spa_feature_img-600x315-1.webp" class="elementor-animation-grow attachment-medium size-medium" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2cbb3a2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2cbb3a2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6e007c8" data-id="6e007c8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a80859d elementor-widget elementor-widget-image" data-id="a80859d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="780" height="648" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/food1.webp" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7a0e237" data-id="7a0e237" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bb92a0d elementor-widget elementor-widget-text-editor" data-id="bb92a0d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<blockquote><p style="text-align: center;">“Just wanted to thank you for your awesome template Avada. It is by far the most professional, easy to use, theme available.”</p></blockquote>
+<div class="ddict_btn" style="top: 27px; left: 203.844px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-287cb3d elementor-widget elementor-widget-text-editor" data-id="287cb3d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">BUSY BUSINESS, THEMEFOREST.NET</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-9691d00" data-id="9691d00" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8c5afe6 elementor-widget elementor-widget-image" data-id="8c5afe6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="780" height="648" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/food2.webp" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0dbb9d8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0dbb9d8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-67b2325" data-id="67b2325" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1ba922e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="1ba922e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-43742a7 elementor-widget elementor-widget-heading" data-id="43742a7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Enjoy & Remember Great Times with us</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-87bee5b elementor-widget elementor-widget-text-editor" data-id="87bee5b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">Praesent faucibus tristique leo, eu lacinia neque condimentum in. Maecenas orci purus, aliquet lobortis.</p>
+<div class="ddict_btn" style="top: 34px; left: 173.125px;"> </div>
+<div class="ddict_btn" style="top: 6px; left: 189.203px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-005dd58 elementor-widget__width-inherit elementor-align-center elementor-widget elementor-widget-button" data-id="005dd58" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">GET STARTED WITH AVADA</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-bffb6dc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bffb6dc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4961a15" data-id="4961a15" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-31265b8 elementor-widget elementor-widget-image" data-id="31265b8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="300" height="158" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/dining_feature_img-600x315-1.webp" class="elementor-animation-grow attachment-medium size-medium" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5c6ca04" data-id="5c6ca04" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-060d4ed elementor-widget elementor-widget-heading" data-id="060d4ed" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">BEST RESTAURANTS
+</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1869e48 elementor-widget elementor-widget-heading" data-id="1869e48" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Dining
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7b8564c elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="7b8564c" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-52f2d26 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="52f2d26" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">Pellentesque nulla magna, accumsan sed ante quis, gravida feugiat turpis. Vivamus et fringilla ligula. Etiam sapien tellus, imperdiet eget posuere nec, cursus vel arcu.</p>
+<div class="ddict_btn" style="top: 21px; left: 204.5px;"> </div>
+<div class="ddict_btn" style="top: 8px; left: 202.344px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ea621b8 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="ea621b8" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">DISCOVER MORE</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-eff215e elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="eff215e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3fde51b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3fde51b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d5cb23c" data-id="d5cb23c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1b1f6fe elementor-widget elementor-widget-image" data-id="1b1f6fe" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="607" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/dining_left_feature.webp" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-20004fd" data-id="20004fd" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-022c967 elementor-widget elementor-widget-text-editor" data-id="022c967" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<blockquote><p style="text-align: center;">“Your theme is beautiful, elegant and your support is first class! I’ve gone from being a total novice to having a gorgeous site!”</p></blockquote>
+<div class="ddict_btn" style="top: 27px; left: 203.844px;"> </div>
+<div class="ddict_btn" style="top: 34px; left: 200.938px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-90cdfb6 elementor-widget elementor-widget-text-editor" data-id="90cdfb6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">NARELLE HANRATTY, THEMEFOREST.NET</p>
+<div class="ddict_btn" style="top: 10px; left: 180.642px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6ee153f" data-id="6ee153f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3875dd8 elementor-widget elementor-widget-image" data-id="3875dd8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="607" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/dining_right_feature.jpg" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f839e23 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f839e23" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2aa4021" data-id="2aa4021" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a374eee elementor-widget elementor-widget-image" data-id="a374eee" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="370" height="82" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/flowers_top.webp" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-fcec80e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fcec80e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-571d601" data-id="571d601" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-75af15b elementor-widget elementor-widget-image" data-id="75af15b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="768" height="201" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/wedding_featured.webp" class="elementor-animation-grow attachment-medium_large size-medium_large" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-90ec7d6 elementor-widget elementor-widget-heading" data-id="90ec7d6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">DREAMS COME TRUE
+</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-38fb3bb elementor-widget elementor-widget-heading" data-id="38fb3bb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Weddings
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-042d7b5 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="042d7b5" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-dbb41bc elementor-widget elementor-widget-text-editor" data-id="dbb41bc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">Pellentesque nulla magna, accumsan sed ante quis, gravida feugiat turpis. Vivamus et fringilla ligula. Etiam sapien tellus, imperdiet eget posuere nec, cursus vel arcu. Ut molestie at posuere ante, at volutpat tellus egestas. Sed ut nunc egestas, porta tortor a, tempor sem.</p>
+<div class="ddict_btn" style="top: 25px; left: 204.5px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2cb0bbe elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="2cb0bbe" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">BOOK NOW</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-45ff956 elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="45ff956" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a80e1f8" data-id="a80e1f8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-07c6f9d elementor-widget elementor-widget-image" data-id="07c6f9d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="400" height="105" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/business_featured-400x105-1.webp" class="elementor-animation-grow attachment-1536x1536 size-1536x1536" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-a899020 elementor-widget elementor-widget-heading" data-id="a899020" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">IDEAS COME TRUE
+</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-698bed8 elementor-widget elementor-widget-heading" data-id="698bed8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Business
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a3b444c elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="a3b444c" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-47a0111 elementor-widget elementor-widget-text-editor" data-id="47a0111" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: center;">Pellentesque nulla magna, accumsan sed ante quis, gravida feugiat turpis. Vivamus et fringilla ligula. Etiam sapien tellus, imperdiet eget posuere nec, cursus vel arcu. Ut molestie at posuere ante, at volutpat tellus egestas. Sed ut nunc egestas, porta tortor a, tempor sem.</p>
+<div class="ddict_btn" style="top: 25px; left: 204.5px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-fe83023 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="fe83023" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">BOOK NOW</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-129ff75 elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="129ff75" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">></span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1e91df4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1e91df4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7b6d0f9" data-id="7b6d0f9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9ff031f elementor-widget elementor-widget-heading" data-id="9ff031f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">PROFESSIONALS
+</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4620294 elementor-widget elementor-widget-heading" data-id="4620294" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Services
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3175d5d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="3175d5d" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-26f2733 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="26f2733" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-2dbee90" data-id="2dbee90" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5f5f10a elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="5f5f10a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon elementor-animation-wobble-horizontal">
+			<i aria-hidden="true" class="fas fa-utensils"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e802673 elementor-widget elementor-widget-text-editor" data-id="e802673" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Delicious <span style="font-family: var( --e-global-typography-text-font-family ), Sans-serif; font-weight: var( --e-global-typography-text-font-weight ); font-size: 0.875rem;">Breakfast</span></p>
+<div class="ddict_btn" style="top: -5px; left: 173.125px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-89328a7" data-id="89328a7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9be671f elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="9be671f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon elementor-animation-wobble-horizontal">
+			<i aria-hidden="true" class="fas fa-clock"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e8b547f elementor-widget elementor-widget-text-editor" data-id="e8b547f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>24 Hour Parking</p>
+<div class="ddict_btn" style="top: -5px; left: 173.125px;"> </div>
+<div class="ddict_btn" style="top: 11px; left: 152.359px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-063b5ae" data-id="063b5ae" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5de2f76 elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="5de2f76" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon elementor-animation-wobble-horizontal">
+			<i aria-hidden="true" class="fas fa-wifi"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c37ccb3 elementor-widget elementor-widget-text-editor" data-id="c37ccb3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>WiFi Internet</p>
+<div class="ddict_btn" style="top: -5px; left: 173.125px;"> </div>
+<div class="ddict_btn" style="top: 32px; left: 152.359px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-8b54762" data-id="8b54762" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-16ddd2b elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="16ddd2b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon elementor-animation-wobble-horizontal">
+			<i aria-hidden="true" class="fas fa-bell"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-33770b5 elementor-widget elementor-widget-text-editor" data-id="33770b5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Room Service</p>
+<div class="ddict_btn" style="top: -5px; left: 173.125px;"> </div>
+<div class="ddict_btn" style="top: 16px; left: 152.359px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-74f58ea" data-id="74f58ea" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9170fba elementor-view-default elementor-invisible elementor-widget elementor-widget-icon" data-id="9170fba" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;slideInLeft&quot;}" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon elementor-animation-wobble-horizontal">
+			<i aria-hidden="true" class="fas fa-car"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-91cafae elementor-widget elementor-widget-text-editor" data-id="91cafae" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Car Rentals</p>
+<div class="ddict_btn" style="top: -5px; left: 173.125px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-e800c83 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e800c83" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4ae1513" data-id="4ae1513" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0c68435 elementor-widget elementor-widget-image" data-id="0c68435" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="370" height="82" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/flowers_top.webp" class="attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-cec6b11 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cec6b11" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ac61bbb" data-id="ac61bbb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bf04ec1 elementor-view-stacked elementor-widget__width-auto elementor-shape-circle elementor-widget elementor-widget-icon" data-id="bf04ec1" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-quote-left"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ea6789f elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="ea6789f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<blockquote><p style="text-align: left;"><em>“Hats off to Avada! You deserve all the recognition that you get for a very customizable &amp; powerful theme. Customer service has been excellent too!”</em></p></blockquote>
+<div class="ddict_btn" style="top: 22px; left: 203.854px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-ea91997 elementor-widget elementor-widget-text-editor" data-id="ea91997" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div class="fusion-layout-column fusion_builder_column fusion-builder-column-32 fusion_builder_column_1_3 1_3 fusion-flex-column"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-13 sm-text-align-center"><p>CHRIS BLAKE, THEMEFOREST.NET</p></div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-33 fusion_builder_column_1_6 1_6 fusion-flex-column"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"> </div></div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-942fd12" data-id="942fd12" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8f1551e elementor-view-stacked elementor-widget__width-auto elementor-shape-circle elementor-widget elementor-widget-icon" data-id="8f1551e" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-quote-left"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a69f1d7 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="a69f1d7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<blockquote><p style="text-align: left;"><em>“You guys have the best user comment response. I have purchased nearly 45 themes in the last 2 years &amp; I’m really impressed with your service.”</em></p></blockquote>
+<div class="ddict_btn" style="top: 22px; left: 203.854px;"><img src="chrome-extension://bpggmmljdiliancllaapiggllnkbjocb/logo/48.png"></div>
+<div class="ddict_btn" style="top: 22px; left: 204.028px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-36a9103 elementor-widget elementor-widget-text-editor" data-id="36a9103" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<div class="fusion-layout-column fusion_builder_column fusion-builder-column-32 fusion_builder_column_1_3 1_3 fusion-flex-column"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"><div class="fusion-text fusion-text-13 sm-text-align-center"><p>JWHOSKY1, THEMEFOREST.NET</p></div></div></div>
+<div class="fusion-layout-column fusion_builder_column fusion-builder-column-33 fusion_builder_column_1_6 1_6 fusion-flex-column"><div class="fusion-column-wrapper fusion-flex-justify-content-flex-start fusion-content-layout-column"> </div></div>
+<div class="ddict_btn" style="top: 20px; left: 156.84px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-0938538 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0938538" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-79a23e4" data-id="79a23e4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fa112f1 elementor-widget elementor-widget-heading" data-id="fa112f1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">LATEST PHOTOS FROM OUR</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-05f6390 elementor-widget elementor-widget-heading" data-id="05f6390" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Activities &amp; Properties</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6b75872 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="6b75872" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-abd9b81 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="abd9b81" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3b6410b" data-id="3b6410b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0fcd293 elementor-widget elementor-widget-image" data-id="0fcd293" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="800" height="500" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/beach_4.jpg" class="elementor-animation-grow attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-a6c5812 elementor-widget elementor-widget-heading" data-id="a6c5812" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">Beautiful Waterfront Beach Loungers</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8155ca5 elementor-widget elementor-widget-text-editor" data-id="8155ca5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Aenean facilisis id neque malesuadais suscipit. Ut iaculis est nec libero rutrum sodales. Class aptent taciti sociqu ad litora torquent per conubia.</p>
+<div class="ddict_btn" style="top: 34px; left: 173.125px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4411d2c" data-id="4411d2c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-355df5e elementor-widget elementor-widget-image" data-id="355df5e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="400" height="250" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/spa_port_1-1-400x250-1.jpg" class="elementor-animation-grow attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-abb847b elementor-widget elementor-widget-heading" data-id="abb847b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">Relaxing Hot Stones At Our Spa</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-24a0617 elementor-widget elementor-widget-text-editor" data-id="24a0617" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Aenean facilisis id neque malesuadais suscipit. Ut iaculis est nec libero rutrum sodales. Class aptent taciti sociqu ad litora torquent per conubia.</p>
+<div class="ddict_btn" style="top: 34px; left: 173.125px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-956b383" data-id="956b383" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-60c0c3a elementor-widget elementor-widget-image" data-id="60c0c3a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="400" height="250" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/beach_1-1-400x250-1.webp" class="elementor-animation-grow attachment-large size-large" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-ab2194b elementor-widget elementor-widget-heading" data-id="ab2194b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">Amazing Surf Near North Shore</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-aa96e6c elementor-widget elementor-widget-text-editor" data-id="aa96e6c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Aenean facilisis id neque malesuadais suscipit. Ut iaculis est nec libero rutrum sodales. Class aptent taciti sociqu ad litora torquent per conubia.</p>
+<div class="ddict_btn" style="top: 34px; left: 173.125px;"> </div>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9d6e546 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9d6e546" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-946bec1" data-id="946bec1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-61c8a6d elementor-widget elementor-widget-image" data-id="61c8a6d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="150" height="63" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/imgAvadaFooter.svg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-a04a46a elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="a04a46a" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-map-marker-alt"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d225802 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="d225802" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<span style="color: #fff; font-family: consolas, 'lucida console', 'courier new', monospace; font-size: 15px; white-space: pre-wrap;">123 Main St, New York, NY 11121</span>						</div>
+				</div>
+				<div class="elementor-element elementor-element-46881a6 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="46881a6" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-phone"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a695346 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="a695346" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<span style="color: #fff; font-family: consolas, 'lucida console', 'courier new', monospace; font-size: 15px; white-space: pre-wrap;">Phone: 1.800.555.6789</span>						</div>
+				</div>
+				<div class="elementor-element elementor-element-2044f38 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="2044f38" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-envelope"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-9d31723 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="9d31723" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<span style="color: #fff; font-family: consolas, 'lucida console', 'courier new', monospace; font-size: 15px; white-space: pre-wrap;">Email: reserve@company.com</span>						</div>
+				</div>
+				<div class="elementor-element elementor-element-dda520c elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="dda520c" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-heart"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c345fd0 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="c345fd0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<span style="color: #fff; font-family: consolas, 'lucida console', 'courier new', monospace; font-size: 15px; white-space: pre-wrap;">Web: www.theme-fusion.com</span>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-696dfce" data-id="696dfce" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3c2df32 elementor-widget elementor-widget-heading" data-id="3c2df32" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">MORE INFOMATION</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-812e09a elementor-nav-menu__align-left elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="812e09a" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
+				<ul id="menu-1-812e09a" class="elementor-nav-menu sm-vertical">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://cutrung.github.io/clone_avada/home/" class="elementor-item">HOME</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="https://cutrung.github.io/clone_avada/accomodations/" class="elementor-item">ACCOMODATIONS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://cutrung.github.io/clone_avada/acctivites/" class="elementor-item">ACCTIVITES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a href="https://cutrung.github.io/clone_avada/spa/" class="elementor-item">SPA</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://cutrung.github.io/clone_avada/dining/" class="elementor-item">DINING</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-276">
+<a href="https://cutrung.github.io/clone_avada/news/" class="elementor-item">NEWS</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281"><a href="https://cutrung.github.io/clone_avada/featured-article/" class="elementor-sub-item">FEATURED ARTICLE</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://cutrung.github.io/clone_avada/contact/" class="elementor-item">CONTACT</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
+				<ul id="menu-2-812e09a" class="elementor-nav-menu sm-vertical">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://cutrung.github.io/clone_avada/home/" class="elementor-item" tabindex="-1">HOME</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-271"><a href="https://cutrung.github.io/clone_avada/accomodations/" class="elementor-item" tabindex="-1">ACCOMODATIONS</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://cutrung.github.io/clone_avada/acctivites/" class="elementor-item" tabindex="-1">ACCTIVITES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a href="https://cutrung.github.io/clone_avada/spa/" class="elementor-item" tabindex="-1">SPA</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://cutrung.github.io/clone_avada/dining/" class="elementor-item" tabindex="-1">DINING</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-276">
+<a href="https://cutrung.github.io/clone_avada/news/" class="elementor-item" tabindex="-1">NEWS</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-281"><a href="https://cutrung.github.io/clone_avada/featured-article/" class="elementor-sub-item" tabindex="-1">FEATURED ARTICLE</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://cutrung.github.io/clone_avada/contact/" class="elementor-item" tabindex="-1">CONTACT</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-1bf2274" data-id="1bf2274" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4085ebb elementor-widget elementor-widget-heading" data-id="4085ebb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">PROMOTIONS</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b1b2c3d elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="b1b2c3d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://cutrung.github.io/clone_avada/">
+							<img width="300" height="167" src="https://cutrung.github.io/clone_avada/wp-content/uploads/2022/09/sidebar_ad2-400x223-1.webp" class="attachment-medium size-medium" alt="" loading="lazy">								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-278597a" data-id="278597a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f7cb52c elementor-widget elementor-widget-heading" data-id="f7cb52c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">NEWSLETTER</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a83210f elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="a83210f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Sign up here to receive promotions and seasonal news for Avada Hotel!</p>
+<div class="ddict_btn" style="top: 17px; left: 173.125px;"> </div>						</div>
+				</div>
+				<div class="elementor-element elementor-element-038526b elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="038526b" data-element_type="widget" data-settings="{&quot;button_width&quot;:&quot;33&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor-pro - v3.7.1 - 16-05-2022 */
+.elementor-button.elementor-hidden,.elementor-hidden{display:none}.e-form__step{width:100%}.e-form__step:not(.elementor-hidden){display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons{-ms-flex-wrap:wrap;flex-wrap:wrap}.e-form__buttons,.e-form__buttons__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex}.e-form__indicators{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-size:13px;margin-bottom:var(--e-form-steps-indicators-spacing)}.e-form__indicators,.e-form__indicators__indicator{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.e-form__indicators__indicator{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-preferred-size:0;flex-basis:0;padding:0 var(--e-form-steps-divider-gap)}.e-form__indicators__indicator__progress{width:100%;position:relative;background-color:var(--e-form-steps-indicator-progress-background-color);border-radius:var(--e-form-steps-indicator-progress-border-radius);overflow:hidden}.e-form__indicators__indicator__progress__meter{width:var(--e-form-steps-indicator-progress-meter-width,0);height:var(--e-form-steps-indicator-progress-height);line-height:var(--e-form-steps-indicator-progress-height);padding-right:15px;border-radius:var(--e-form-steps-indicator-progress-border-radius);background-color:var(--e-form-steps-indicator-progress-color);color:var(--e-form-steps-indicator-progress-meter-color);text-align:right;-webkit-transition:width .1s linear;-o-transition:width .1s linear;transition:width .1s linear}.e-form__indicators__indicator:first-child{padding-left:0}.e-form__indicators__indicator:last-child{padding-right:0}.e-form__indicators__indicator--state-inactive{color:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-inactive [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-inactive-secondary-color,#fff)}.e-form__indicators__indicator--state-inactive object,.e-form__indicators__indicator--state-inactive svg{fill:var(--e-form-steps-indicator-inactive-primary-color,#c2cbd2)}.e-form__indicators__indicator--state-active{color:var(--e-form-steps-indicator-active-primary-color,#39b54a);border-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-active-secondary-color,#fff)}.e-form__indicators__indicator--state-active object,.e-form__indicators__indicator--state-active svg{fill:var(--e-form-steps-indicator-active-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed{color:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator--state-completed [class*=indicator--shape-]:not(.e-form__indicators__indicator--shape-none){background-color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator__label{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a)}.e-form__indicators__indicator--state-completed .e-form__indicators__indicator--shape-none{color:var(--e-form-steps-indicator-completed-primary-color,#39b54a);background-color:initial}.e-form__indicators__indicator--state-completed object,.e-form__indicators__indicator--state-completed svg{fill:var(--e-form-steps-indicator-completed-secondary-color,#fff)}.e-form__indicators__indicator__icon{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);font-size:var(--e-form-steps-indicator-icon-size);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;overflow:hidden;margin-bottom:10px}.e-form__indicators__indicator__icon img,.e-form__indicators__indicator__icon object,.e-form__indicators__indicator__icon svg{width:var(--e-form-steps-indicator-icon-size);height:auto}.e-form__indicators__indicator__icon .e-font-icon-svg{height:1em}.e-form__indicators__indicator__number{width:var(--e-form-steps-indicator-padding,30px);height:var(--e-form-steps-indicator-padding,30px);border-width:1px;border-style:solid;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:10px}.e-form__indicators__indicator--shape-circle{border-radius:50%}.e-form__indicators__indicator--shape-square{border-radius:0}.e-form__indicators__indicator--shape-rounded{border-radius:5px}.e-form__indicators__indicator--shape-none{border:0}.e-form__indicators__indicator__label{text-align:center}.e-form__indicators__indicator__separator{width:100%;height:var(--e-form-steps-divider-width);background-color:#c2cbd2}.e-form__indicators--type-icon,.e-form__indicators--type-icon_text,.e-form__indicators--type-number,.e-form__indicators--type-number_text{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.e-form__indicators--type-icon .e-form__indicators__indicator__separator,.e-form__indicators--type-icon_text .e-form__indicators__indicator__separator,.e-form__indicators--type-number .e-form__indicators__indicator__separator,.e-form__indicators--type-number_text .e-form__indicators__indicator__separator{margin-top:calc(var(--e-form-steps-indicator-padding, 30px) / 2 - var(--e-form-steps-divider-width, 1px) / 2)}.elementor-field-type-hidden{display:none}.elementor-field-type-html{display:inline-block}.elementor-login .elementor-lost-password,.elementor-login .elementor-remember-me{font-size:.85em}.elementor-field-type-recaptcha_v3 .elementor-field-label{display:none}.elementor-field-type-recaptcha_v3 .grecaptcha-badge{z-index:1}.elementor-button .elementor-form-spinner{-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3}.elementor-form .elementor-button>span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-form .elementor-button .elementor-button-text{white-space:normal;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0}.elementor-form .elementor-button svg{height:auto}.elementor-form .elementor-button .e-font-icon-svg{height:1em}</style>		<form class="elementor-form" method="post" name="New Form">
+			<input type="hidden" name="post_id" value="284">
+			<input type="hidden" name="form_id" value="038526b">
+			<input type="hidden" name="referer_title" value="avada">
+
+							<input type="hidden" name="queried_id" value="284">
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-60 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label elementor-screen-only">
+								Email							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Insert your email" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-33 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-sm">
+						<span>
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Send</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+			<footer id="colophon" class="site-footer" role="contentinfo">
+				
+		<div class="site-info">
+			<div class="container">
+									<div class="btt">
+						<a class="back-to-top" href="#page" title="Back To Top"><i class="fa fa-angle-double-up wow flash" data-wow-duration="2s"></i></a>
+					</div>
+										Copyright &copy; 2022 DemoWeb		<span class="sep"> &ndash; </span>
+		<a href="https://www.famethemes.com/themes/onepress">OnePress</a> theme by FameThemes					</div>
+		</div>
+		<!-- .site-info -->
+
+	</footer><!-- #colophon -->
+	</div>
+<!-- #page -->
+
+
+<link rel="stylesheet" id="e-animations-css" href="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.7.4" type="text/css" media="all">
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/themes/onepress/assets/js/plugins.js?ver=2.3.0" id="onepress-js-plugins-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/themes/onepress/assets/js/bootstrap.min.js?ver=2.3.0" id="onepress-js-bootstrap-js"></script>
+<script type="text/javascript" id="onepress-theme-js-extra">
+/* <![CDATA[ */
+var onepress_js_settings = {"onepress_disable_animation":"0","onepress_disable_sticky_header":"","onepress_vertical_align_menu":"","hero_animation":"flipInX","hero_speed":"5000","hero_fade":"750","hero_duration":"5000","hero_disable_preload":"","is_home":"","gallery_enable":"1","is_rtl":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/themes/onepress/assets/js/theme.js?ver=2.3.0" id="onepress-theme-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-includes/js/comment-reply.min.js?ver=6.0.2" id="comment-reply-js"></script>
+<script type="text/javascript" id="eael-general-js-extra">
+/* <![CDATA[ */
+var localize = {"ajaxurl":"http:\/\/localhost\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"c85d65bd47","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"http:\/\/localhost\/myproject\/wordpress\/avada\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=5.2.4" id="eael-general-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1" id="smartmenus-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.7.1" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.4" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.4" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-includes/js/dist/hooks.min.js?ver=c6d64f2cb8f5c6bb49caca37f8828ce3" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-includes/js/dist/i18n.min.js?ver=ebee46757c6a411e38fd079a7ac71d94" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
+</script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"http:\/\/localhost\/myproject\/wordpress\/wp-admin\/admin-ajax.php","nonce":"479de8dc5b","urls":{"assets":"http:\/\/localhost\/myproject\/wordpress\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"http:\/\/localhost\/myproject\/wordpress\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"http:\/\/localhost\/myproject\/wordpress\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.7.1" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"theme_builder_v2":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"http:\/\/localhost\/myproject\/wordpress\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":284,"title":"avada%20%E2%80%93%20DemoWeb","excerpt":"","featuredImage":false}};
+</script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.4" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="https://cutrung.github.io/clone_avada/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.7.1" id="pro-elements-handlers-js"></script>
+
+</body>
+</html>
